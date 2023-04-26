@@ -5,7 +5,7 @@ const palabra = diccionario[Math.floor(Math.random() * diccionario.length)];
 const BOTON = document.getElementById("guess-button");
 
 BOTON.addEventListener("click", intentar);
-/*window.addEventListener('load', init)*/
+
 function leerIntento(){
     let intento = document.getElementById("guess-input");
     return intento.value.toUpperCase();
